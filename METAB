@@ -1,0 +1,9 @@
+_G.Bin = true
+while _G.Bin do
+    wait(1)
+
+
+game:GetService("ReplicatedStorage").RemoteEvents.BabyFollow:FireServer("CharacterFollowSpawnPlayer","BabyGirl")
+wait(1)
+game:GetService("ReplicatedStorage").RemoteEvents.BabyFollow:FireServer("CharacterFollowSpawnPlayer","BabyBoy")
+end
